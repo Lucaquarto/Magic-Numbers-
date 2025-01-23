@@ -1,0 +1,92 @@
+/* Imposta lo stile di base del corpo della pagina */
+body {
+    font-family: Arial, sans-serif; /* Imposta il font di default */
+    margin: 0; /* Rimuove i margini di default del browser */
+    padding: 20px; /* Aggiunge spazio interno al corpo */
+    background-color: #d4ffd4; /* Imposta uno sfondo verde chiaro */
+    min-height: 100vh; /* Imposta l'altezza minima della pagina per riempire l'intero schermo */
+}
+
+/* Contenitore principale del gioco, centra il contenuto */
+.game-container {
+    max-width: 800px; /* Imposta una larghezza massima di 800px */
+    margin: 0 auto; /* Centra il contenuto orizzontalmente */
+    text-align: center; /* Allinea il testo al centro */
+}
+
+/* Intestazione principale */
+h1 {
+    font-size: 24px; /* Imposta la dimensione del font dell'intestazione */
+    margin-bottom: 30px; /* Aggiunge uno spazio sotto l'intestazione */
+}
+
+/* Sezione delle istruzioni, allinea il testo a sinistra */
+.instructions {
+    text-align: left; /* Allinea il testo a sinistra */
+    margin-bottom: 30px; /* Aggiunge uno spazio sotto la sezione */
+}
+
+/* Stile per l'elenco numerato delle istruzioni */
+.instructions ol {
+    padding-left: 20px; /* Aggiunge spazio a sinistra per l'elenco numerato */
+}
+
+/* Stile per ogni elemento dell'elenco numerato */
+.instructions li {
+    margin-bottom: 10px; /* Aggiunge spazio sotto ogni elemento dell'elenco */
+}
+
+/* Stile per l'elenco non numerato delle istruzioni */
+.instructions ul {
+    list-style-type: none; /* Rimuove i bullet points */
+    padding-left: 20px; /* Aggiunge spazio a sinistra per l'elenco non numerato */
+}
+
+/* Sezione per l'input dell'utente, aggiunge margini */
+.input-section {
+    margin: 30px 0; /* Aggiunge spazio sopra e sotto la sezione */
+}
+
+/* Stile per l'etichetta dell'input */
+.input-label {
+    margin-bottom: 10px; /* Aggiunge uno spazio sotto l'etichetta */
+}
+
+/* Stile per l'elemento di input (campo di testo) */
+input {
+    padding: 10px; /* Aggiunge spazio interno al campo di input */
+    width: 200px; /* Imposta una larghezza fissa per il campo di input */
+    margin-bottom: 10px; /* Aggiunge uno spazio sotto il campo di input */
+    border: 1px solid #ccc; /* Imposta un bordo sottile grigio chiaro */
+    border-radius: 4px; /* Aggiunge angoli arrotondati */
+}
+
+/* Stile per il bottone di invio */
+button {
+    display: block; /* Rende il bottone un blocco (ossia occupa tutta la larghezza disponibile) */
+    width: 200px; /* Imposta la larghezza del bottone */
+    padding: 10px; /* Aggiunge spazio interno al bottone */
+    margin: 0 auto; /* Centra il bottone orizzontalmente */
+    background-color: #77dd77; /* Colore di sfondo verde chiaro */
+    color: black; /* Colore del testo in nero */
+    border: none; /* Rimuove il bordo del bottone */
+    border-radius: 4px; /* Aggiunge angoli arrotondati */
+    cursor: pointer; /* Imposta il cursore a mano quando passa sopra il bottone */
+    font-weight: bold; /* Imposta il testo in grassetto */
+}
+
+/* Effetto hover sul bottone (quando si passa il mouse sopra) */
+button:hover {
+    background-color: #66cc66; /* Cambia il colore di sfondo quando il mouse passa sopra */
+}
+
+/* Stile per il messaggio che viene mostrato all'utente */
+#message {
+    margin: 20px 0; /* Aggiunge spazio sopra e sotto il messaggio */
+    font-weight: bold; /* Imposta il testo in grassetto */
+}
+
+/* Stile per il messaggio che mostra i tentativi rimasti */
+#attempts-message {
+    margin-top: 10px; /* Aggiunge uno spazio sopra il messaggio */
+}
